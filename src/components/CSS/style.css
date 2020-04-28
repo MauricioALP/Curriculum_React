@@ -1,0 +1,355 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+body{
+    background-color: rgb(238, 238, 238);
+}
+.container{
+    background-image: url(../IMG/ContainerBackground.png);
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    margin: 15px auto 30px auto;    
+    height: 1150px;
+    width: 900px;
+}
+
+.card1{
+    color: white;
+    background-image: url(../IMG/Backg1.png);
+    background-position: bottom;
+    margin: 0 auto 20px auto;
+    background-repeat: no-repeat;
+    background-color: rgb(155, 99, 77);
+    width: 700px;
+    height: 250px;
+}
+
+#name{
+    padding: 20px 0 0 10px;
+    font-family: 'Lobster', cursive;
+    font-size: 45px;
+}
+
+#career{
+    padding: 5px 0 0 12px;
+    font-size: 18px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+
+
+
+/*      EMAIL    */
+#email{
+    padding: 25px 0 0 20px;
+}
+
+#email{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+#mail_img{
+    padding-right: 10px;
+    float:left;
+}
+
+#gmail{     
+    color:white;
+    float: left;
+}
+
+#gmail p{
+    font-family: 'Patua One', cursive;
+}
+
+
+
+
+/*     NUMBER     */
+#number{
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+#phone{
+    padding-left: 20px;
+}
+
+#phone img{
+    width:15px; 
+    float: left;
+    padding-right: 10px;
+}
+#contact p{
+    font-family: 'Patua One', cursive;
+    font-size: 14px;
+    float: left;
+}
+
+
+
+/*      LOCATION     */
+
+#location{
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+#gps_icon{
+    padding-left: 20px;
+}
+
+#gps_icon img{
+    width:15px; 
+    float: left;
+    padding-right: 10px;
+}
+#country p{
+    font-family: 'Patua One', cursive;
+    font-size: 14px;
+    float: left;
+}
+
+
+/*          ICONS       */
+
+
+#icons{
+    margin-top: 85px;
+    padding-left: 20px;
+}
+
+#whatsapp{
+    float: left;
+    padding-right: 14px;
+}
+
+#twitter{
+    float: left;
+    padding-right: 14px;
+}
+
+#telegram{
+    float: left;
+    padding-right: 14px;
+}
+
+#instagram{
+    float: left;
+    padding-right: 14px;
+}
+
+
+
+
+
+.card2{
+    margin: 0 auto 20px auto;
+    background-color: white;
+    width: 700px;
+    height: 150px;
+    border:solid;
+    border-width: 3px 2px;
+    border-top: 3px;
+    border-color: rgb(201, 201, 201);
+}
+
+
+.description{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+    height: 80px;
+    padding: 28px 20px 0 25px;
+}
+
+
+.btn1{
+    font-family: 'Patua One', cursive;
+    font-size: 15px;
+    margin-left: 310px;
+    padding: 5px 10px 5px 10px;
+    color: white;
+    background-color: #0097a7;
+    text-decoration: none;
+    transition: 0.8s;
+}
+
+.btn1:hover{
+    background-color: #2c8a94;
+    border-radius: 7px;
+    color:black;
+}
+
+.card3{
+    margin: 0 auto 0 auto;
+    background-color: white;
+    width: 700px;
+    height: 500px;
+}
+
+.title{
+    padding-top: 25px;
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+    height: 50px;
+    width: 700px;
+}
+.title p{
+    text-align: center;
+}
+
+
+.cpp{
+    width: 225px;
+    height: 400px;
+    float: left;
+    margin: 0 6px 0 6px;
+}
+
+
+
+.cpp h1{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.python{
+    width: 225px;
+    height: 400px;
+    float: left;
+    margin-right: 6px;
+}
+
+.python h2{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.python h1{
+    font-family: 'Lobster', cursive;
+     text-align: center;
+     margin-top: 20px;
+     font-size: 30px;
+}
+
+.c{
+    width: 225px;
+    height: 400px;
+    float: left;
+    margin-right: 6px;
+}
+
+.c h1{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.card4{
+    margin-top: 20px;
+    margin-left: 100px;
+    height: 150px;
+    width: 700px;
+    background-image: url(../IMG/fondocard3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card4 h1{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    padding-top: 15px;
+}
+
+#icon1{
+    padding:21px 80px 0 50px;
+    float: left;
+}
+
+.icon2{
+    padding: 31px 65px 0 0;
+    width: 40px;
+    height: 55px;
+    float: left;
+}
+
+.icon3{
+    padding: 25px 70px 0 0;
+    width: 40px;
+    height: 55px;
+    float: left;
+}
+
+.icon4{
+    padding: 31px 65px 0 0;
+    width: 40px;
+    height: 55px;
+    float: left;
+}
+
+.icon5{
+    padding: 29px 65px 0 0;
+    width: 40px;
+    height: 55px;
+    float: left;
+}
+
+.icon6{
+    padding: 36px 65px 0 0;
+    width: 40px;
+    height: 75px;
+    float: left;
+}
